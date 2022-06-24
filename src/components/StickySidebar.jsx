@@ -26,7 +26,7 @@ function StickySidebar() {
       </div>
       <div className="tagWrapper">
         {exampleFooter.map((footer) => (
-          <a href={`/#${footer}`} key={footer} style={{ color: "black" }}>
+          <a href="/#" key={footer} style={{ color: "black" }}>
             {footer}
           </a>
         ))}
